@@ -1,0 +1,303 @@
+body {
+    width: 95%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.header {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .right{
+    text-align: right;
+
+}
+.header div.right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.8vw;
+    margin: 0.4vw;
+}
+
+
+
+#about {
+    display : flex;
+    align-items: center;
+}
+#about div.left {
+    width: 50%;
+    margin-left: 3vw;
+
+}
+#about div.right {
+    width: 50%;
+    text-align: right;
+
+}
+#about div.right img {
+    width: 90%;
+    text-align: right;
+    border-radius: 50%;
+    border: 5px solid rgb(12, 219, 140);
+}
+   
+
+
+
+#about div.left a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.Details {
+    Display: flex;
+    
+    gap: 3%;
+    
+}
+
+.sub-details {
+    text-align: justify;
+}
+
+.SkillTool {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.SkillTool img {
+    width: 5%;
+}
+
+.left h1 {
+    font-size: 5.5vw;
+}
+
+.left p {
+    font-size: 3vw;
+}
+
+.left button {
+    border-radius: 5px;
+    background-color: mediumturquoise;
+    border-style: hidden;
+    color: white;
+    font-size: 1.4vw;
+    margin-right: 3%;
+    padding: 2%;
+    width: 12vw;
+}
+
+
+
+
+.Project-Details div.left p {
+    font-size: 1vw;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+    
+
+.Project-Details img{
+    width: 35vw;
+
+}
+
+.left1 button{
+    border-radius: 5px;
+    background-color: mediumturquoise;
+    border-style: hidden;
+    color: white;
+    font-size: 1.3vw;
+    margin-right: 3%;
+    padding: 1%;
+    width: 12vw;
+    margin-bottom: 2%;
+}
+
+.Project-Details{
+    Display: flex;
+    gap: 3%;
+    align-items: center;
+}
+
+.right1 img{
+   width: 45vw;
+   padding-bottom: 3vw;
+   border-radius: 5%;
+   
+}
+
+.right1{
+    width: 50%;
+    
+}
+.left1 {
+    width: 100%;
+    text-align: justify;
+}
+.left1 p{
+    margin-top: 1vw;
+    margin-bottom: 1vw;     
+
+}
+
+
+
+@media screen and (max-width:400px) {
+    #about{
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    #about div.left {
+        text-align: center;
+        }
+
+    .left p{
+        text-align: justify;
+        margin-left: 4.5vw;
+      
+    }
+
+    .left button{
+        margin-right: 0.5%;
+    }
+
+    h1 {
+        font-size: 5.5vw;
+        margin-bottom: 5vw;
+    }
+
+    .Details{
+        Display: flex;
+        flex-flow: column-reverse;
+    }
+    
+    .sub-details {
+
+        margin-top: -5vw;
+        font-size: 4vw;
+    }
+
+    .header div.right a{
+        font-size: 3vw;
+    }
+
+    .left h1{
+        margin-bottom: 4vw;
+    }
+
+    .SkillTool{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 30vw;
+        align-items: center;
+        margin-top: -3vw;
+        margin-bottom: 6vw;
+        place-items: center;
+    }
+
+    .SkillTool img{
+        width: 10vw;
+    }
+
+    .left1{
+        margin-top: -5vw;
+        font-size: 4vw;
+        text-align: justify;
+        
+    }
+
+    .Project-Details{
+        display: flex;
+        flex-flow: column;
+    }
+
+    h3{
+        font-size: 5vw;
+    }
+
+    .Project-Details img{
+        width: 100%;
+        margin-bottom: 3vw;
+
+    }
+    .right1{
+        width: 100%;
+    }
+
+    .left1 p{
+        font-size: 4vw;
+    }
+
+
+}
+
+@media screen and (min-width:400px) and (max-width:700px) {
+    .Details{
+        font-size: 2.2vw;
+    }
+
+    
+    .main-heading {
+        font-size: 5.5vw;
+        margin-bottom: -1vw;
+    }
+
+    .left1{
+        font-size: 1.8vw;
+    }
+
+    .sub-heading{
+        font-size: 3vw;
+        text-align: -webkit-left;
+
+    }
+
+    .sub-details-heading{
+        font-size: 3vw;
+    }
+
+    .left1 p{
+        margin-top: 1vw;
+        margin-bottom: 1vw; 
+        font-size: 2vw;
+    }
+
+    .SkillTool{
+        margin-top: 3vw;
+    }
+
+}
+
+.ending{
+    text-align: center;
+}
+.ending h1 {
+    font-weight: bold;
+    font-size: 1.5;
+}
+.ending p {
+    font-size: 1.8vw;
+}
+
+.ending img{
+    width: 2vw;
+}
+
+.last-tag {
+    text-align: center;
+    font-size: 1.4vw;
+}
