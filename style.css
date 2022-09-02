@@ -154,6 +154,9 @@ body {
 
 
 @media screen and (max-width:650px) {
+    body{
+        padding: 0% 5%;
+    }
     #about{
         display: flex;
         flex-flow: column-reverse;
